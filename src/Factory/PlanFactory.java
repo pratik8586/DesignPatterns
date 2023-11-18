@@ -2,7 +2,7 @@ package Factory;
 
 public class PlanFactory {
 
-    public  Plan getPlan(PlanType planType) {
+    public Plan getPlan(PlanType planType) {
 
         switch (planType) {
             case BASIC -> {
